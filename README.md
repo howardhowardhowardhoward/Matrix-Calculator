@@ -16,22 +16,34 @@ This is a toy matrix calculator designed to perform fundamental matrix operation
  
 ___________________________________________________________________________________________________________________________________________
 
-##Input Format
+### Input Format
 
 Matrices can be entered into a text box using space-separated values for columns and newlines for rows. Examples:
 
-`0 1 2` or `0.5 1` or `1/2 2`
+<div style="display: flex; justify-content: space-between;">
+  <table>
+    <tr><td>0</td><td>1</td><td>2</td></tr>
+    <tr><td>23</td><td>4</td><td>5</td></tr>
+    <tr><td>6</td><td>7</td><td>8</td></tr>
+  </table>
 
-`23 4 5` or `2 3.7` or `1/3 0.4`
+  <table>
+    <tr><td>0.5</td><td>1</td></tr>
+    <tr><td>2</td><td>3.7</td></tr>
+  </table>
 
-`6 7 8`
+  <table>
+    <tr><td>1/2</td><td>2</td></tr>
+    <tr><td>1/3</td><td>0.4</td></tr>
+  </table>
+</div>
 
 Both decimal, integer, and fractional inputs are supported.
 
 
 ___________________________________________________________________________________________________________________________________________
 
-##Project Structure
+### Project Structure
 	•	Matrix.py and MatrixOperations.py: Backend logic for matrix representation and operations.
 	•	GUI.py: Graphical user interface for interacting with the calculator.
 
