@@ -45,8 +45,12 @@ ________________________________________________________________________________
 ### Instalation Instructions
 
 1. Clone this repository:
-   git clone https://github.com/howardhowardhowardhoward/matrix-calculator.git
-2. Run the program:
+git clone https://github.com/howardhowardhowardhoward/Matrix-Project.git
+
+3. Download required libraries:
+pip install -r requirements.txt
+
+5. Run the program:
    python GUI.py
 
 ___________________________________________________________________________________________________________________________________________
