@@ -18,7 +18,7 @@ ________________________________________________________________________________
 
 ### Input Format
 
-Matrices can be entered into a text box using space-separated values for columns and newlines for rows. Examples:
+Matrices can be entered into a text box using space-separated values for columns and newlines for rows.
 
 <div style="display: flex; justify-content: space-between;">
   <table>
