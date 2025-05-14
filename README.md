@@ -40,10 +40,22 @@ Matrices can be entered into a text box using space-separated values for columns
 
 Both decimal, integer, and fractional inputs are supported.
 
+___________________________________________________________________________________________________________________________________________
+
+### Instalation Instructions
+
+1. Clone this repository:
+   git clone https://github.com/howardhowardhowardhoward/matrix-calculator.git
+2. Run the program:
+   python GUI.py
 
 ___________________________________________________________________________________________________________________________________________
 
 ### Project Structure
-	•	Matrix.py and MatrixOperations.py: Backend logic for matrix representation and operations.
+
+	- Matrix.py and MatrixOperations.py: Backend logic for matrix representation and operations.
+ 		- Matrix.py:
+   		- MatrixOperations:
+ 
 	•	GUI.py: Graphical user interface for interacting with the calculator.
 
