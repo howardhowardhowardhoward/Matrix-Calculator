@@ -21,6 +21,9 @@ def is_float(value) -> bool:
         return False
 
 def check_dimensions(m: Matrix, dimension: tuple) -> bool:
+    """
+    Verifies that the dimensions of the matrix are given the dimension requirement.
+    """
     rows_match = dimension[0] == -1 or m.dimensions[0] == dimension[0]
     cols_match = dimension[1] == -1 or m.dimensions[1] == dimension[1]
     return rows_match and cols_match
@@ -56,6 +59,9 @@ def get_matrix_from_input(text_widget, dimension: tuple) -> Matrix | None:
         return None
 
 def scale(m: Matrix, i: str) -> Matrix | None:
+    """
+    returns a Matrix scaled by the factor i or None if the input is invalid
+    """
     try:
         m.scalar_multiplication(Fraction(i.strip()))
         return m
@@ -63,6 +69,9 @@ def scale(m: Matrix, i: str) -> Matrix | None:
         return None
 
 def scaler(m: Matrix):
+    """
+    Button function to scale the matrix by the user input
+    """
     destroy_window()
     title = Label(window, text = "Scale by", font = ('Times New Roman', 20))
     it = tkinter.Text(window, height=1, width=10)
@@ -72,6 +81,9 @@ def scaler(m: Matrix):
     sub.pack()
 
 def adder(m: Matrix):
+    """
+    Button function to add the matrix to the user input
+    """
     destroy_window()
     title = Label(window, text = "Add to", font = ('Times New Roman', 20))
     it = tkinter.Text(window, height=12, width=20)
@@ -82,6 +94,9 @@ def adder(m: Matrix):
     sub.pack()
 
 def multiplier(m: Matrix):
+    """
+    Button function to multiply the matrix to the user input
+    """
     destroy_window()
     title = Label(window, text="Multiply to", font=('Times New Roman', 20), pady= 10)
     nah = tkinter.Text(window, height=12, width=20, pady = 10)
@@ -101,10 +116,16 @@ def multiplier(m: Matrix):
 
 
 def transposer(m:Matrix):
+    """
+    Button function to transpose the matrix
+    """
     m.transpose()
     retrieve_input(m)
 
 def rise(m:Matrix, i:str) -> Matrix | None:
+    """
+    Helper function for the powers function
+    """
     try:
         res = Matrix(m.rows)
         for _ in range(int(i) - 1):
@@ -114,6 +135,9 @@ def rise(m:Matrix, i:str) -> Matrix | None:
         return None
 
 def powers(m:Matrix):
+    """
+    Button function to raise the matrix to the given power
+    """
     destroy_window()
     title = Label(window, text = "Power of", font = ('Times New Roman', 20))
     it = tkinter.Text(window, height=1, width=10)
@@ -187,6 +211,9 @@ def display_properties(m: Matrix):
     main_frame.pack(padx=10, pady=10)
 
 def retrieve_input(matrix: Matrix| None):
+    """
+    Retrieves and displays the properties and actions which can be taken on the matrix
+    """
     if not matrix:
         Label(window, text = "INVALID INPUT").pack()
         return
