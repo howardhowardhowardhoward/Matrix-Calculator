@@ -1,7 +1,7 @@
 
 ___________________________________________________________________________________________________________________________________________
 
-##Matrix Calculator
+###Matrix Calculator
 
 This is a toy matrix calculator designed to perform fundamental matrix operations and display key properties of a given matrix. The tool supports: 
 
