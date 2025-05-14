@@ -3,15 +3,16 @@ ________________________________________________________________________________
 
 Matrix Calculator
 
-This is a toy matrix calculator designed to perform fundamental matrix operations and display key properties of a given matrix. The tool supports:
-	•	Row-Reduced Echelon Form (RREF)
-	•	Determinant calculation
-	•	Matrix rank and nullity
-	•	Matrix inverse (if it exists)
-	•	Kernel (null space) computation
-	•	Matrix addition and multiplication
-	•	Matrix scalar multiplication
- 	•	Matrix transpose
+This is a toy matrix calculator designed to perform fundamental matrix operations and display key properties of a given matrix. The tool supports: 
+
+- **Row-Reduced Echelon Form (RREF)**
+- **Determinant calculation**
+- **Matrix rank and nullity**
+- **Matrix inverse (if it exists)**
+- **Kernel (null space) computation**
+- **Matrix addition and multiplication**
+- **Matrix scalar multiplication**
+- **Matrix transpose**
  
 ___________________________________________________________________________________________________________________________________________
 
