@@ -56,10 +56,9 @@ ________________________________________________________________________________
 ___________________________________________________________________________________________________________________________________________
 
 ### Project Structure
-
-	- Matrix.py and MatrixOperations.py: Backend logic for matrix representation and operations.
- 		- Matrix.py:
-   		- MatrixOperations:
+- `Matrix.py` and `MatrixOperations.py`: Backend logic for matrix representation and operations.
+  - `Matrix.py`: Defines the Matrix class and its properties. Handles operations involving a single matrix such as Inverse, RREF, determinnat, etc. 
+  - `MatrixOperations.py`: Handles operations between two matrices such as addition and multiplication.
  
-	•	GUI.py: Graphical user interface for interacting with the calculator.
+- GUI.py: Graphical user interface for interacting with the calculator.
 
