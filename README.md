@@ -19,7 +19,7 @@ ________________________________________________________________________________
 ### Input Format
 
 Matrices can be entered into a text box using space-separated values for columns and newlines for rows.
-\\
+
 Examples:
 
 <div style="display: flex; justify-content: space-between;">
