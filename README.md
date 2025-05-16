@@ -38,7 +38,7 @@ Matrices can be entered into a text box using space-separated values for columns
   </table>
 </div>
 
-Both decimal, integer, and fractional inputs are supported.
+Decimal, integer, and fractional inputs are supported.
 
 ___________________________________________________________________________________________________________________________________________
 
